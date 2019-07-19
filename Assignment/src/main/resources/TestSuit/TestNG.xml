@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon UI Automation Suite">
+	<test name="Amazon UI Automation Tests">
+		<classes>
+			<class name="Assignment.Assignment.HomeTest" />
+		</classes>
+	</test>
+</suite>
