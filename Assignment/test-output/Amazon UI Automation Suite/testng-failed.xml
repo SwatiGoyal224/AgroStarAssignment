@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon UI Automation Suite]">
+  <test thread-count="5" name="Amazon UI Automation Tests(failed)">
+    <classes>
+      <class name="Assignment.Assignment.HomeTest">
+        <methods>
+          <include name="validateCart"/>
+          <include name="validateAddtoCartFunctionality"/>
+          <include name="cleanUp"/>
+          <include name="ValidateAddressPage"/>
+          <include name="setUp"/>
+          <include name="validateSignIn"/>
+        </methods>
+      </class> <!-- Assignment.Assignment.HomeTest -->
+    </classes>
+  </test> <!-- Amazon UI Automation Tests(failed) -->
+</suite> <!-- Failed suite [Amazon UI Automation Suite] -->
